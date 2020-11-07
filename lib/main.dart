@@ -33,7 +33,7 @@ class FirstPage extends StatelessWidget {
               'First Page',
               style: TextStyle(fontSize: 50),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('Go to second'),
               onPressed: () {
                 Navigator.of(context).push(
